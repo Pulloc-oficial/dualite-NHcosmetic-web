@@ -5,36 +5,36 @@ import { MdInsertDriveFile } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/30 shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          {/* Logo */}
-          <div className="text-xl font-bold text-gray-800">Dualité</div>
-
-          {/* Menu */}
-          <div className="flex items-center space-x-6">
-            <Link to="/pages" className="flex items-center text-gray-800 hover:text-green-600 transition">
-              <FaRegFileAlt className="mr-1" /> Pages
-            </Link>
-            <Link to="/account" className="flex items-center text-gray-800 hover:text-green-600 transition">
-              <FaUserCircle className="mr-1" /> Account
-            </Link>
-            <Link to="/blocks" className="flex items-center text-gray-800 hover:text-green-600 transition">
-              <FaCube className="mr-1" /> Blocks
-            </Link>
-            <Link to="/docs" className="flex items-center text-gray-800 hover:text-green-600 transition">
-              <MdInsertDriveFile className="mr-1" /> Docs
-            </Link>
-
-            {/* Buy Button */}
-            <a
-              href="#"
-              className="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
-            >
-              Buy Now
-            </a>
-          </div>
+    <nav className="fixed top-4 w-full z-50 flex justify-center px-4">
+      <div className="w-full max-w-6xl bg-white/30 backdrop-blur-md shadow-md rounded-xl px-6 py-3 flex justify-between items-center">
+        {/* Logo */}
+        <div className="text-lg md:text-xl font-bold text-gray-800">
+          Dualité
         </div>
+
+        {/* Menu */}
+        <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
+          <Link to="/pages" className="flex items-center text-gray-800 hover:text-green-600 transition">
+            <FaRegFileAlt className="mr-1" /> Pages
+          </Link>
+          <Link to="/account" className="flex items-center text-gray-800 hover:text-green-600 transition">
+            <FaUserCircle className="mr-1" /> Account
+          </Link>
+          <Link to="/blocks" className="flex items-center text-gray-800 hover:text-green-600 transition">
+            <FaCube className="mr-1" /> Blocks
+          </Link>
+          <Link to="/docs" className="flex items-center text-gray-800 hover:text-green-600 transition">
+            <MdInsertDriveFile className="mr-1" /> Docs
+          </Link>
+        </div>
+
+        {/* Buy Button */}
+        <a
+          href="#"
+          className="hidden md:inline-block bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
+        >
+          Buy Now
+        </a>
       </div>
     </nav>
   );
