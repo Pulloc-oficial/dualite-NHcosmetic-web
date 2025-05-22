@@ -31,3 +31,23 @@
   font-weight: 300;
   font-style: normal;
 }
+
+
+@keyframes glow-border {
+  0% {
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  }
+}
+
+.animate-glow {
+  animation: glow-border 2s infinite ease-in-out;
+}

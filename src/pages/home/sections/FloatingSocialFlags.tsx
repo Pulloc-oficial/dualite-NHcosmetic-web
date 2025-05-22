@@ -9,6 +9,7 @@ const FloatingSocialFlags = () => {
         rel="noopener noreferrer"
         className="bg-black/40 hover:bg-white/30 hover:w-20 text-white rounded-r-full w-12 h-12 flex items-center justify-center shadow-lg transition"
       >
+        <span className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-white animate-glow" />
         <img className="w-6 h-6" src="./public/icons/01 Static Glyph/01 Gradient Glyph/Instagram_Glyph_Gradient.svg" />
       </a>
 
