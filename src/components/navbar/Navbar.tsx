@@ -17,7 +17,7 @@ const Navbar: React.FC<Navbar1Props> = ({ onSwitch }) => {
   return (
     <nav className="fixed top-4 w-full z-50 flex justify-center px-4">
       <div className={`w-full max-w-7xl shadow-md backdrop-blur-md rounded-xl px-6 py-3 flex justify-between items-center ${
-        isScrolled ? "bg-[#6F7C68]" : "bg-[#6F7C68]/40" }`}>
+        isScrolled ? "bg-[#6F7C68]" : "bg-[#E8C88A]/20" }`}>
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img className="col-span-2 max-h-10 w-full object-contain lg:col-span-1" src="./public/images/logoB.png" alt="Transistor" width="158" height="48"/>
@@ -45,10 +45,11 @@ const Navbar: React.FC<Navbar1Props> = ({ onSwitch }) => {
         {/* Buy Button */}
         <a
           href="#"
-          className="hidden md:inline-block bg-[#BB976F] text-[#1A1A1A] px-4 py-2 rounded-2xl 
-          hover:bg-[#889858] hover:text-white transition-all duration-300 shadow-md inter-navegacion"
+          className={`hidden md:inline-block text-[#1A1A1A] px-4 py-2 rounded-2xl 
+           transition-all duration-300 shadow-md inter-navegacion hover:text-white 
+          ${ isScrolled ? "bg-[#E8C88A] hover:bg-[#4E5F46] " : "bg-[#FFEBCF] hover:bg-[#4E5F46]" }`}
         >
-          Buy Now
+          Buy Nowx
         </a>
       </div>
     </nav>

@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-xl libre-baskerville-regular leading-tight">
             Cuidado consciente, belleza esencial
           </h1>
-          <button className="mt-4 bg-[#BB976F] text-[#1A1A1A] px-6 py-3 rounded-2xl hover:bg-[#889858] hover:text-white transition-all duration-300 shadow-md inter-navegacion">
+          <button className="mt-4 bg-[#E8C88A] text-[#1A1A1A] px-6 py-3 rounded-2xl hover:bg-[#4E5F46] hover:text-white transition-all duration-300 shadow-md inter-navegacion">
             Ver Catálogo
           </button>
         </div>
