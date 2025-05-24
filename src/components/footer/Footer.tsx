@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#6F7C68] pt-12 pb-6 px-4 text-[#D6D9BA] inter-titulos">
+    <footer className="bg-[#4E5F46] pt-12 pb-6 px-4 text-[#D6D9BA] inter-titulos">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-wrap text-left lg:text-left">
           {/* Izquierda */}

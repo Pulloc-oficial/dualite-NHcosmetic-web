@@ -5,6 +5,8 @@ import Navbar from './components/navbar/Navbar'
 import Hero from './pages/home/sections/Hero';
 import Footer from './components/footer/Footer';
 import FloatingSocialFlags from './pages/home/sections/FloatingSocialFlags';
+import ContactSection from './pages/home/sections/ContactPreview';
+import Banner from './pages/home/sections/Banner';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,8 @@ function App() {
       <Navbar/>
       <FloatingSocialFlags/>
       <Hero/>
+      <Banner/>
+      <ContactSection/>
       <Footer/>
     </Router>
   )

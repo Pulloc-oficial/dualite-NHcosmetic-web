@@ -7,18 +7,19 @@ const FloatingSocialFlags = () => {
         href="https://facebook.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-black/40 hover:bg-white/30 hover:w-20 text-white rounded-r-full w-12 h-12 flex items-center justify-center shadow-lg transition"
+        className="bg-black/40 hover:bg-white/30 hover:w-20 text-white rounded-r-full w-12 h-12 flex 
+        items-center justify-center shadow-lg transition glow-single"
       >
-        <span className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-white animate-glow" />
         <img className="w-6 h-6" src="./public/icons/01 Static Glyph/01 Gradient Glyph/Instagram_Glyph_Gradient.svg" />
       </a>
-
+    
       {/* Instagram */}
       <a
         href="https://instagram.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-black/40 hover:bg-white/30 hover:w-20 text-white rounded-r-full w-12 h-12 flex items-center justify-center shadow-lg transition"
+        className="bg-black/40 hover:bg-white/30 hover:w-20 text-white rounded-r-full w-12 h-12 flex 
+        items-center justify-center shadow-lg transition glow-single"
       >
         <img className="w-6 h-6" src="./public/icons/facebook-1-svgrepo-com.svg" />
       </a>
@@ -28,7 +29,8 @@ const FloatingSocialFlags = () => {
         href="https://tiktok.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-black/40 hover:bg-white/30 hover:w-20 text-white rounded-r-full w-12 h-12 flex items-center justify-center shadow-lg transition"
+        className="bg-black/40 hover:bg-white/30 hover:w-20 text-white rounded-r-full w-12 h-12 flex 
+        items-center justify-center shadow-lg transition glow-single"
       >
         <img className="w-6 h-6" src="./public/icons/tiktok-svgrepo-com.svg" />
       </a>
