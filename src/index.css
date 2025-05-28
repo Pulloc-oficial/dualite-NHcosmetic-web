@@ -33,6 +33,14 @@
 }
 
 
+.inter-title {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 @keyframes glow-border {
   0% {
     box-shadow: 0 0 2px 1px #4E5F46;
