@@ -1,10 +1,10 @@
 const Banner = () => {
   const phrases = [
-    "frase de Dualite",
-    "frase de Dualite",
-    "frase de Dualite",
-    "frase de Dualite",
-    "frase de Dualite",
+    "Puro bienestar",
+    "Conecta con tu esencia",
+    "Tu piel, tu templo",
+    "Belleza con propósito",
+    "Rituales que sanan",
   ];
 
   // Concatenamos el array para repetir las frases y evitar espacios

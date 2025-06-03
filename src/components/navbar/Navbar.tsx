@@ -17,7 +17,7 @@ const Navbar: React.FC<Navbar1Props> = ({ onSwitch }) => {
   return (
     <nav className={`fixed w-full z-50 flex justify-center ${ isScrolled ? "" : "top-5"}`}>
       <div className={`w-full shadow-md backdrop-blur-md  px-6 py-3 flex justify-between items-center ${
-        isScrolled ? "bg-[#4E5F46]" : "rounded-xl max-w-7xl bg-[#E8C88A]/15" }`}>
+        isScrolled ? "bg-[#4E5F46]" : "rounded-xl max-w-7xl bg-black/40" }`}>
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img className="col-span-2 max-h-10 w-full object-contain lg:col-span-1" src="./public/images/logoB.png" alt="Transistor" width="158" height="48"/>
